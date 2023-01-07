@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans';
+}
+
+/* Header styles */
+.banner {
+    text-align: right;
+    padding: 210px 100px 170px 800px;
+    background-image: url('../images/banner/banner1.png');
+    background-repeat: no-repeat;
+
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 32px;
+}
+
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #F15B22;
+    padding: 21px 25px 20px 26px;
+    border: 0;
+    border-radius: 5px;
+}
+/* Introduction Area Style */
+.introduction{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    padding: 200px;
+    background-image: url('../images/gradient2.png');
+    background-repeat: no-repeat;
+    background-position-y: 330px;
+}
+.intro-subtitle{
+    font-weight: 400px;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+.intro-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 20px;
+}
+.intro-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+/* Previous Year Area Styles */
+.previous-year {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    padding: 200px;
+}
+.my-failures{
+    margin-top: 100px;
+}
+.failures-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 36px;
+}
+
+.failures-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.failures-list p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-bottom: 8px;
+}
+
+.failures-list .fa-solid {
+    color: rgb(8, 203, 8);
+}
+
+/* My Plans Area Styles */
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    text-align: center;
+    margin-bottom: 56px;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 130px;
+}
+
+.plan {
+    text-align: center;
+}
+
+.plan .title {
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.plan .description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+/* Call Now Area Styles */
+.call-now {
+    width: 1100px;
+    height: 300px;
+    text-align: left;
+    background-image: url('../images/watch.png'),url('../images/gradient3.png');
+    background-blend-mode: multiply;
+    margin: 130px auto;
+    border-radius: 8px;
+}
+
+.call-description {
+    padding: 60px 600px 100px 64px;
+}
+
+.call-now-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.btn-secondary {
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    background-color: #FFFFFF;
+    padding: 21px 36px;
+    border: 0;
+    border-radius: 5px;
+}
+
+/* Footer Area Styles */
+.footer{
+    background-color: #151414;
+    display: flex;
+    gap: 331px;
+    /* justify-content: space-between; */
+    padding: 130px 230px;
+
+}
+
+.contact-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.contact-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+.contact a{
+    margin-right:17px ;
+}
+
+.input-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+}
+
+.footer input {
+    background: #151414;
+    color: #F3F3F3;
+    font-weight: 400;
+    font-size: 18px;
+    border: 1px solid #F3F3F3 ;
+    border-radius: 5px;
+    padding: 21px 20px;
+    margin-bottom: 16px;
+}
